@@ -1,0 +1,25 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 1rem;
+    margin: 0; /* Remove default margin on ul */
+    padding: 0; /* Remove default padding on ul */
+    list-style: none; /* Remove default list styles */
+  }
+  
+  .nav-item {
+    /* No need for this style, as we removed list-style from ul */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
